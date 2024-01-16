@@ -2,7 +2,7 @@
 # using a while loop and if statement display Best School 10 times but display Hi on the 9th line
 count=0
 
-while [ count <= 10 ]
+while [ count < 10 ]
 do
 	if [ count = 9 ]
 	then
