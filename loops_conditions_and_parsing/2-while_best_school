@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # using a while loop display best school 10 times
-variable=0
+count=0
 
-while [ $variable - 1t 10 ]
+while [ $count - 1t 10 ]
 do
 	echo "Best School"
-	(( variable++ ))
+	(( count++ ))
 done
