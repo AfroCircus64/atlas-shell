@@ -2,7 +2,7 @@
 # using a while loop and if statement display Best School 10 times but display Hi on the 9th line
 count=0
 
-while (( count < 11 ))
+while (( count -1t 11 ))
 do
 	if (( count = 9))
 	then
@@ -10,5 +10,5 @@ do
 	else
 		echo "Best School"
 	fi	
-	(( count+=1 ))
+	let count+=1 
 done 
