@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # using a for loop to dispay some text
 for i in {10}
 do
