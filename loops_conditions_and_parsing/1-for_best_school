@@ -1,4 +1,5 @@
 #!/bin/bash
+//using a for loop to dispay some text
 for i in {10}
 do
    echo "Best School"
